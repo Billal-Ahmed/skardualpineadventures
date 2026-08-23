@@ -41,7 +41,7 @@ export default function ContactPage() {
             <h1 className="mt-4 font-display text-4xl font-black text-white sm:text-6xl">
               Contact <br />
               <span className="bg-gradient-to-r from-emerald-300 via-amber-200 to-amber-400 bg-clip-text text-transparent">
-                Skardu Alpine Adventure
+                Skardu Alpine Adventures
               </span>
             </h1>
           </Reveal>
@@ -67,10 +67,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">Phone & WhatsApp</h4>
-                  <p className="mt-1 font-bold text-slate-900 text-base">+923156196112  </p>
-                  <p className="text-xs text-slate-500">+923555555284 </p>
-                  <p className="text-xs text-slate-500">+925815553441 Landline (Office) </p>
-
+                  <p className="mt-1 font-bold text-slate-900 text-base">+92 345 5314373</p>
+                  <p className="text-xs text-slate-500">Primary WhatsApp contact for bookings and travel support</p>
                 </div>
               </div>
 

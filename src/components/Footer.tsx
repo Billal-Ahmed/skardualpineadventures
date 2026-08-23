@@ -71,7 +71,7 @@ export default function Footer() {
           <h4 className="mb-3 font-display text-base font-bold text-white">Payment Methods</h4>
           <PaymentLogos dark />
           <div className="mt-6 space-y-2 text-sm">
-            <p className="flex items-center gap-2"><Phone size={13} className="text-amber-300" />+923455314373 </p>
+            <p className="flex items-center gap-2"><Phone size={13} className="text-amber-300" />+92 345 5314373</p>
             <p className="flex items-center gap-2"><Mail size={13} className="text-amber-300" /> skardualpine@gmail.com</p>
             <p className="flex items-center gap-2"><MapPin size={13} className="text-amber-300" /> Shangrila Road, Skardu, GB</p>
           </div>

@@ -33,7 +33,7 @@ export default function VisaInfoPage() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-slate-200">
-              Complete step-by-step information on securing your Pakistan Tourist E-Visa, Visa on Arrival eligibility, and official Letters of Invitation (LOI) provided by Skardu Alpine Adventure.
+              Complete step-by-step information on securing your Pakistan Tourist E-Visa, Visa on Arrival eligibility, and official Letters of Invitation (LOI) provided by s.
             </p>
           </Reveal>
         </div>

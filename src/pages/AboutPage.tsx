@@ -33,7 +33,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mx-auto mt-6 max-w-2xl text-base text-slate-200 sm:text-lg">
-              Based in Skardu, Gilgit-Baltistan, Skardu Alpine Adventure is a licensed high-altitude expedition operator committed to sustainable eco-tourism, local community empowerment, and unforgettable alpine journeys.
+              Based in Skardu, Gilgit-Baltistan, Skardu Alpine Adventures is a licensed high-altitude expedition operator committed to sustainable eco-tourism, local community empowerment, and unforgettable alpine journeys.
             </p>
           </Reveal>
         </div>

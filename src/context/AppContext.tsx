@@ -83,7 +83,7 @@ function WhatsAppFloat() {
           <div className="flex items-center gap-3 bg-emerald-600 px-4 py-3 text-white">
             <span className="grid h-10 w-10 place-items-center rounded-full bg-white/15"><WhatsAppIcon size={22} /></span>
             <div>
-              <p className="font-display text-sm font-bold leading-tight">Skardu Alpine Adventure</p>
+              <p className="font-display text-sm font-bold leading-tight">Skardu Alpine Adventures</p>
               <p className="flex items-center gap-1.5 text-[11px] text-emerald-100"><span className="h-1.5 w-1.5 rounded-full bg-emerald-300" /> Typically replies in minutes</p>
             </div>
           </div>
@@ -92,7 +92,7 @@ function WhatsAppFloat() {
               Salam! 👋 Planning a trip to Skardu, Hunza or K2? Send us your dates and we'll craft the perfect itinerary.
             </div>
             <a
-              href={waLink("Assalam o Alaikum! I'd like to plan a trip with Skardu Alpine Adventure.")}
+              href={waLink("Assalam o Alaikum! I'd like to plan a trip with Skardu Alpine Adventures.")}
               target="_blank"
               rel="noreferrer"
               className="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-emerald-700 active:scale-[0.98]"

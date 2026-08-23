@@ -156,11 +156,12 @@ function Hero() {
       {/* ========================================================================= */}
       <section className="hidden sm:block relative w-full min-h-[35vw] lg:min-h-[38vw] overflow-hidden bg-slate-900 select-none">
         {/* 1. SKY BACKGROUND */}
-        <div className="absolute inset-0 z-0 overflow-hidden">
+        <div className="absolute inset-0 z-0 overflow-hidden" style={{opacity: 0.6}}>
           <img
             src="/images/sky_image.jpg"
             alt="Sky background"
             className="h-full w-full object-cover object-center animate-hero-in scale-105"
+            
           />
           <div className="absolute inset-0 bg-gradient-to-b from-sky-900/20 via-transparent to-emerald-950/70" />
         </div>
@@ -188,12 +189,14 @@ function Hero() {
         </div>
 
         {/* 3. MOUNTAIN FOREGROUND (Front of text, 100% full width: z-20) */}
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex justify-center items-end">
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex justify-center items-end"
+        style={{ opacity: 0.8 }}
+        >
           <img
             src="/images/mountain_image.png"
             alt="Skardu Mountain Range"
             className="w-full h-auto block animate-mountain-up"
-            style={{ animationDelay: "180ms" }}
+            style={{ animationDelay: "180ms"}}
           />
         </div>
 
@@ -256,7 +259,8 @@ function Hero() {
                 </label>
                 <button
                   type="submit"
-                  className="flex items-center justify-center gap-2 rounded-full bg-emerald-950 px-6 py-3 text-sm font-extrabold text-white transition hover:bg-emerald-800 active:scale-[0.98] shadow-lg"
+                  className="flex items-center justify-center gap-2 rounded-full bg-emerald-950 px-2 py-2 text-sm font-bold text-white transition hover:bg-emerald-800 active:scale-[0.98] shadow-lg"
+                  // style={{fontSize: "12px"}}
                 >
                   Book Now <ArrowRight size={15} />
                 </button>

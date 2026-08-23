@@ -56,7 +56,7 @@ const IMG = {
   wildflowers: "https://images.pexels.com/photos/27600632/pexels-photo-27600632.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
 };
 
-export const WHATSAPP_NUMBER = "923551234567";
+export const WHATSAPP_NUMBER = "923455314373";
 export const waLink = (msg: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 
